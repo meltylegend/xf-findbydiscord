@@ -1,0 +1,9 @@
+{
+    "template": "user_search",
+    "description": "",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<a class=\"tabs-tab\" role=\"tab\" tabindex=\"0\" aria-controls=\"ip-search\">{{ phrase('search_by_ip_address') }}</a>",
+    "replace": "$0\n<a class=\"tabs-tab\" role=\"tab\" tabindex=\"0\" aria-controls=\"ds-search\">{{ phrase('LEGIT_search_by_discord') }}</a>"
+}

@@ -1,0 +1,9 @@
+{
+    "template": "user_search",
+    "description": "",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "\t\t\t\t\t<xf:submitrow icon=\"search\" />\n\t\t\t\t</xf:form>\n\t\t\t</li>",
+    "replace": "$0\n<li role=\"tabpanel\" id=\"ds-search\">\n\t<xf:form action=\"{{ link('users/discord-users') }}\">\n\t\t<div class=\"block-body\">\n\t\t\t<xf:textboxrow name=\"id\"\n\t\t\t\t\t\t   label=\"{{ phrase('LEGIT_fbd_discord_id') }}\"\n\t\t\t\t\t\t   explain=\"74380169992******\" />\n\t\t</div>\n\t\t<xf:submitrow icon=\"search\" />\n\t</xf:form>\n</li>"
+}
